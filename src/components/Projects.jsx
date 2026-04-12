@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FiFolder, FiX, FiCreditCard, FiRefreshCw, FiDollarSign, FiBook, FiShield, FiUser, FiShoppingBag, FiFileText, FiUsers } from 'react-icons/fi'
+import { FiFolder, FiX, FiCreditCard, FiRefreshCw, FiDollarSign, FiBook, FiShield, FiUser, FiShoppingBag, FiFileText, FiUsers, FiHome, FiTool, FiDroplet } from 'react-icons/fi'
 
 const projects = [
   {
@@ -111,6 +111,42 @@ const projects = [
     features: ['Onboarding', 'KYC verification', 'Agreement mgmt', 'Analytics'],
     gradient: 'from-pink-500 via-rose-500 to-red-500',
     pattern: 'mesh',
+  },
+  {
+    id: 10,
+    title: 'Society Management System',
+    category: 'Enterprise',
+    icon: FiHome,
+    description: 'Comprehensive society management with resident portal and facility booking.',
+    longDescription: 'Full-featured society management platform built with React, handling resident management, maintenance tracking, visitor management, and facility bookings with real-time notifications.',
+    tech: ['React.js', 'Node.js', 'MongoDB', 'Material-UI'],
+    features: ['Resident portal', 'Maintenance tracking', 'Visitor management', 'Facility booking'],
+    gradient: 'from-blue-500 via-indigo-500 to-purple-500',
+    pattern: 'circles',
+  },
+  {
+    id: 11,
+    title: 'Construction Company System',
+    category: 'Enterprise',
+    icon: FiTool,
+    description: 'Project management system for construction operations and resource tracking.',
+    longDescription: 'Comprehensive construction management platform with project tracking, resource allocation, inventory management, and progress monitoring with real-time reporting dashboards.',
+    tech: ['React.js', 'Express.js', 'PostgreSQL', 'Redux'],
+    features: ['Project tracking', 'Resource allocation', 'Inventory mgmt', 'Progress reports'],
+    gradient: 'from-yellow-500 via-orange-500 to-red-500',
+    pattern: 'grid',
+  },
+  {
+    id: 12,
+    title: 'Blood Bank Management System',
+    category: 'Healthcare',
+    icon: FiDroplet,
+    description: 'Blood inventory management with donor tracking and request handling.',
+    longDescription: 'Angular-based blood bank management system with donor registration, blood inventory tracking, request management, and emergency alert system for critical blood requirements.',
+    tech: ['Angular', 'Spring Boot', 'MySQL', 'Bootstrap'],
+    features: ['Donor management', 'Inventory tracking', 'Request handling', 'Emergency alerts'],
+    gradient: 'from-red-500 via-pink-500 to-rose-500',
+    pattern: 'waves',
   },
 ]
 
@@ -277,7 +313,7 @@ const patterns = {
   mesh: PatternMesh,
 }
 
-const categories = ['All', 'Fintech', 'Enterprise', 'Education']
+const categories = ['All', 'Fintech', 'Enterprise', 'Education', 'Healthcare']
 
 const Projects = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })

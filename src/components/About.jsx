@@ -7,8 +7,8 @@ const About = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
 
   const highlights = [
-    { icon: FiCode, label: '2.5+ Years', desc: 'Experience' },
-    { icon: FiLayers, label: '750+', desc: 'Work Items' },
+    { icon: FiCode, label: '3+ Years', desc: 'Experience' },
+    { icon: FiLayers, label: '1K+', desc: 'Work Items' },
     { icon: FiDatabase, label: '25+', desc: 'Projects' },
     { icon: FiAward, label: 'Gold', desc: 'Medalist' },
   ]
@@ -96,15 +96,15 @@ const About = () => {
             <div className="space-y-4 sm:space-y-6">
               <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed">
                 Hey there! I'm a passionate <span className="text-primary font-medium">Software Engineer</span> from 
-                <span className="text-accent"> Ujjain, Madhya Pradesh</span>, currently based in Etawah, Uttar Pradesh. 
-                With over 2.5 years of hands-on experience, I specialize in building scalable, high-performance 
+                <span className="text-accent"> Ujjain, Madhya Pradesh</span>. 
+                With over 3 years of hands-on experience, I specialize in building scalable, high-performance 
                 web applications.
               </p>
               
               <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed">
                 My journey in tech started in May 2023, and since then, I've worked on 
                 cutting-edge <span className="text-secondary font-medium">fintech solutions</span> and enterprise 
-                applications. From payment gateways to compliance systems, I've delivered 750+ work items 
+                applications. From payment gateways to compliance systems, I've delivered 1K+ work items 
                 ensuring reliability and exceptional user experiences.
               </p>
               

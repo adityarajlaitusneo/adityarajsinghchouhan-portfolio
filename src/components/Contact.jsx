@@ -36,9 +36,9 @@ const contactInfo = [
   {
     icon: FiMapPin,
     label: 'Location',
-    value: 'Etawah, Uttar Pradesh',
-    shortValue: 'Etawah, UP',
-    href: 'https://maps.app.goo.gl/DLz8njrLGJRmuUBu8',
+    value: 'Ujjain, Madhya Pradesh',
+    shortValue: 'Ujjain, MP',
+    href: 'https://maps.app.goo.gl/hjg6bvr5q98h4Coa6',
     color: 'from-blue-500 to-cyan-500',
   },
   {

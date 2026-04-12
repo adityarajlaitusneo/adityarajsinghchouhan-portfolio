@@ -7,7 +7,7 @@ const experiences = [
     company: 'Laitusneo Technologies Pvt Ltd',
     role: 'Software Engineer',
     location: 'Etawah, Uttar Pradesh',
-    period: 'Sep 2025 - Present',
+    period: 'Sep 2025 - Apr 2026',
     current: true,
     description: 'Leading frontend development for enterprise-scale applications using Angular 18 & React.js.',
     highlights: [

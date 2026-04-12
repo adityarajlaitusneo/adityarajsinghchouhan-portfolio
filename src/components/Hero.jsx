@@ -7,7 +7,7 @@ const Hero = () => {
 
   const socialLinks = [
     { icon: FiLinkedin, href: 'https://linkedin.com/in/adii1901', label: 'LinkedIn' },
-    { icon: FiGithub, href: 'https://github.com/Adii1901', label: 'GitHub' },
+    { icon: FiGithub, href: 'https://github.com/codewithadityaraj', label: 'GitHub' },
     { icon: FiMail, href: 'mailto:adiirajsinghchouhan@gmail.com', label: 'Email' },
   ]
 
@@ -77,7 +77,7 @@ const Hero = () => {
         >
           <div className="flex items-center gap-1.5">
             <FiMapPin className="text-accent" size={16} />
-            <span>Etawah, Uttar Pradesh, India</span>
+            <span>Ujjain, Madhya Pradesh, India</span>
           </div>
           <div className="flex items-center gap-1.5">
             <span className="hidden xs:inline text-gray-300 dark:text-gray-600">•</span>
@@ -92,7 +92,7 @@ const Hero = () => {
           className="max-w-2xl mx-auto text-gray-500 dark:text-gray-400 text-sm sm:text-base lg:text-lg mb-8 sm:mb-10 leading-relaxed px-2"
         >
           Crafting high-performance web applications with{' '}
-          <span className="text-primary font-medium">2.5+ years</span> of expertise in{' '}
+          <span className="text-primary font-medium">3+ years</span> of expertise in{' '}
           <span className="text-secondary font-medium">Angular</span>,{' '}
           <span className="text-accent font-medium">React</span>, and{' '}
           <span className="text-green-500 font-medium">.NET</span>. 

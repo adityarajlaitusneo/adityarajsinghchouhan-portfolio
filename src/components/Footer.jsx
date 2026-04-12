@@ -13,7 +13,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: FiLinkedin, href: 'https://linkedin.com/in/adii1901', label: 'LinkedIn' },
-    { icon: FiGithub, href: 'https://github.com/Adii1901', label: 'GitHub' },
+    { icon: FiGithub, href: 'https://github.com/codewithadityaraj', label: 'GitHub' },
     { icon: FiMail, href: 'mailto:adiirajsinghchouhan@gmail.com', label: 'Email' },
   ]
 
@@ -99,7 +99,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="text-sm sm:text-base">
-                Etawah, Uttar Pradesh, India
+                Ujjain, Madhya Pradesh, India
               </li>
               <li className="flex items-center gap-2 justify-center sm:justify-start">
                 <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
